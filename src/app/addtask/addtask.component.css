@@ -1,0 +1,38 @@
+.add-task-header{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0px 0px 20px 0px;
+}
+
+.add-task-container{
+    width: 800px;
+}
+
+.add-task-btn{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px !important;
+    justify-content: center;
+}
+
+.add-task-btn input{
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#create{
+    background: #1e88e5;
+    color: #fff;
+}
+
+#close{
+    border: 1px solid #212529;
+    margin: 0px;
+}
+
+::ng-deep .mat-dialog-container{
+    overflow: inherit;
+}

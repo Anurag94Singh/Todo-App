@@ -1,0 +1,13 @@
+<div class="header">
+    <div class="brand-wrapper">
+        <img src="assets/images/logo2.png" alt="logo" class="logo">
+        TODO
+    </div>
+    <div *ngIf="token" class="move-right login-details">
+        <img src="assets/images/user.png" alt="logo" class="logo">
+        <button mat-button [matMenuTriggerFor]="menu">{{userName}}</button>
+        <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="logout()">LOGOUT</button>
+        </mat-menu>
+    </div>
+</div>
